@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components {
     .view-title {
         @apply mb-2 w-full border-b pb-2 text-start text-lg;
@@ -11,6 +12,8 @@
 }
 
 body {
+    background-color: #212429;
+    color: #ffffff;
     font-family: "Space Grotesk", sans-serif;
     width: 100%;
     max-width: 100%;
